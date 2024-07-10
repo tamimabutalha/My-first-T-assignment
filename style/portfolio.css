@@ -50,3 +50,12 @@ align-items: center;
 .section-title {
     margin-top: 450px;
 }
+.skill-container {
+    margin: auto;
+    width: 100px;  
+} 
+
+.skill {
+  display: flex; 
+  justify-content: space-between;
+}
