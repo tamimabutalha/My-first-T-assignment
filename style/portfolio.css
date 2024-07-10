@@ -29,7 +29,13 @@ align-items: center;
     height: 45px;
     width: 150px;
     margin-top: 20px;
+
     
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
 }
 
 .banner{
@@ -52,10 +58,102 @@ align-items: center;
 }
 .skill-container {
     margin: auto;
-    width: 100px;  
+    width: 2000px;  
 } 
 
 .skill {
+    padding: 20px;
+    margin: 20px;
+    width: 1600px;
   display: flex; 
+  gap: 55px;
   justify-content: space-between;
 }
+.video {
+    text-align: center;
+
+
+
+}
+
+
+.video-contant{
+    margin-top: 60px;
+}
+.video-style{
+    margin-top: 100px;
+}
+.icon-section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.icon-item {
+    width: 500px;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+.section-p1{
+
+    margin-top:40px ;
+
+}
+.icon{
+    display: flex;
+    margin: 30px;
+}
+.icon a{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#ban{
+    
+}
+
+.ban1{
+    background-image:url(../assets/handshake.jpg);
+    background-size: cover;
+    width:60%;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px;
+    margin-left: 200px;
+}
+.ban1 h1{
+    width:700 ;
+    color: white;
+
+
+}
+.ban1 p{
+    color: rgb(214, 214, 214);
+}
+
+.ban1 input{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+}
+.ban1 button{
+
+    width: 100px;
+    height:40px;
+    border-radius: 5px;
+    color: black;
+    
+
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.social-icon img{
+    margin-right: 9px;
+}
+
+
